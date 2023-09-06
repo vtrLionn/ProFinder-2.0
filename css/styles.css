@@ -1,0 +1,177 @@
+/* Adicionando estilos para o corpo da página */
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Estilos para a seção de herói (hero) */
+.topo {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.topo h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ff9900;
+}
+
+.topo p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff6600;
+}
+
+/* Estilos para a seção de serviços (services) */
+.servicos {
+    text-align: center;
+    padding: 80px 0;
+}
+
+/*.servicos section {
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    width: 30%;
+    width: 128px;
+    max-width: 100%;
+}*/
+
+section div {
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    width: 30%;
+    display: inline-block;
+}
+
+.servicos h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.servicos {
+    display: inline-block;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servicos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.servicos h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.servicos p {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+}
+
+/* Estilos para a seção "Sobre Nós" (about-us) */
+.sobre {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f7f7f7;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.sobre p {
+    text-align: justify;
+}
+
+/* Estilos para a seção de contato (contact) */
+.contato {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contato h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
