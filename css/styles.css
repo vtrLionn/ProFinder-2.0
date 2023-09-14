@@ -4,7 +4,8 @@ body {
     background-color: #f7f7f7;
     margin: 0;
     padding: 0;
-    background-color: yellow;
+    background-color: #ff9900;
+
 }
 
 /* Estilos para o cabeçalho (header) */
@@ -58,7 +59,7 @@ nav a:hover {
 .topo h1 {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #ff9900;
+    color: #fff;
 }
 
 .topo p {
@@ -70,7 +71,7 @@ nav a:hover {
 .btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #ff9900;
+    background-color: #ff6600;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -79,7 +80,7 @@ nav a:hover {
 }
 
 .btn:hover {
-    background-color: #ff6600;
+    background-color: #ff9900;
 }
 
 /* Estilos para a seção de serviços (services) */
@@ -183,4 +184,10 @@ footer {
 
 footer p {
     font-size: 14px;
+}
+
+.logo {
+    width: 125px;
+    height: 125px;
+    display: flex;
 }
